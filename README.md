@@ -1,16 +1,21 @@
-uname
-=====
+# uname
 
--= uname for centralized env =-
-
-
-A Shell script to determine os release in variable way.
-
-The aim is to build centralized env path (via nfs etc) or to be used in scripts / Mirrors
+## uname for centralized env
 
 
-I know there is lsb_release but it's not the way i would like to go.
+* **Overview** :
+  - A Shell script to determine os release in variable way.
+  - The aim is to build centralized env path (via nfs etc) or to be used in scripts / Mirrors
 
-Ex :
+* **Example Usage** :
 
-/Linux/Ubuntu/raring/x86_64
+    `/Linux/Ubuntu/raring/x86_64`
+
+* **Comparable Tools** :
+  - lsb_release
+  - original uname
+
+* **ToDo** :
+  - Clean Code
+  - Find a good project Name :)
+  - Maybe Change Lang (bash > (Perl || Python))
